@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     ui->image->setScaledContents(true);
     this->setAcceptDrops(true);
-    setWindowTitle("PictureBrowserV1.0");
+    setWindowTitle("PictureBrowserV1.1");
 
     // 创建一个 QIntValidator 对象，设置最小值为 0，最大值为 10000
     QIntValidator *widthValidator = new QIntValidator(0, 10000, ui->width);
